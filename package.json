@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-path-sep-posix",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "POSIX path segment separator.",
   "license": "Apache-2.0",
   "author": {
