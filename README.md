@@ -24,14 +24,30 @@ limitations under the License.
 
 > POSIX path segment separator.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-path-sep-posix
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import PATH_SEP_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@deno/mod.js';
+var PATH_SEP_POSIX = require( '@stdlib/constants-path-sep-posix' );
 ```
 
 #### PATH_SEP_POSIX
@@ -54,7 +70,7 @@ var sep = PATH_SEP_POSIX;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import PATH_SEP_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@deno/mod.js';
+var PATH_SEP_POSIX = require( '@stdlib/constants-path-sep-posix' );
 
 var parts;
 var path;
@@ -96,7 +112,7 @@ parts = path.split( PATH_SEP_POSIX );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -152,14 +168,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-path-sep-posix/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-path-sep-posix/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-path-sep-posix/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-path-sep-posix/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-path-sep-posix/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep/tree/deno
+[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep
 
-[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32/tree/deno
+[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32
 
 <!-- </related-links> -->
 
