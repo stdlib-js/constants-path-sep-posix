@@ -24,38 +24,30 @@ limitations under the License.
 
 > POSIX path segment separator.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-path-sep-posix
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-PATH_SEP_POSIX = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var PATH_SEP_POSIX = require( 'path/to/vendor/umd/constants-path-sep-posix/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.PATH_SEP_POSIX;
-})();
-</script>
+var PATH_SEP_POSIX = require( '@stdlib/constants-path-sep-posix' );
 ```
 
 #### PATH_SEP_POSIX
@@ -77,13 +69,8 @@ var sep = PATH_SEP_POSIX;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var PATH_SEP_POSIX = require( '@stdlib/constants-path-sep-posix' );
 
 var path = 'foo/bar/baz';
 var parts = path.split( PATH_SEP_POSIX );
@@ -92,11 +79,6 @@ var parts = path.split( PATH_SEP_POSIX );
 path = 'foo\\bar\\baz';
 parts = path.split( PATH_SEP_POSIX );
 // returns ['foo\\bar\\baz' ]
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -189,9 +171,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep/tree/umd
+[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep
 
-[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32/tree/umd
+[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32
 
 <!-- </related-links> -->
 
