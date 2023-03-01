@@ -93,8 +93,8 @@ parts = path.split( PATH_SEP_POSIX );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/path/sep`][@stdlib/constants/path/sep]</span><span class="delimiter">: </span><span class="description">platform-specific path segment separator.</span>
--   <span class="package-name">[`@stdlib/constants/path/sep-win32`][@stdlib/constants/path/sep-win32]</span><span class="delimiter">: </span><span class="description">Windows path segment separator.</span>
+-   <span class="package-name">[`@stdlib/constants-path/sep`][@stdlib/constants/path/sep]</span><span class="delimiter">: </span><span class="description">platform-specific path segment separator.</span>
+-   <span class="package-name">[`@stdlib/constants-path/sep-win32`][@stdlib/constants/path/sep-win32]</span><span class="delimiter">: </span><span class="description">Windows path segment separator.</span>
 
 </section>
 

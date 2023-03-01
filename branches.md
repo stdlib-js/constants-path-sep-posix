@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/path/sep-posix"
-click B href "https://github.com/stdlib-js/constants-path-sep-posix/tree/main"
-click C href "https://github.com/stdlib-js/constants-path-sep-posix/tree/production"
-click D href "https://github.com/stdlib-js/constants-path-sep-posix/tree/esm"
-click E href "https://github.com/stdlib-js/constants-path-sep-posix/tree/deno"
-click F href "https://github.com/stdlib-js/constants-path-sep-posix/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/path/sep-posix"
+%% click B href "https://github.com/stdlib-js/constants-path-sep-posix/tree/main"
+%% click C href "https://github.com/stdlib-js/constants-path-sep-posix/tree/production"
+%% click D href "https://github.com/stdlib-js/constants-path-sep-posix/tree/esm"
+%% click E href "https://github.com/stdlib-js/constants-path-sep-posix/tree/deno"
+%% click F href "https://github.com/stdlib-js/constants-path-sep-posix/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/path/sep-posix
