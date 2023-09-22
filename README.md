@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import PATH_SEP_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@esm/index.mjs';
+import PATH_SEP_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@v0.1.0-esm/index.mjs';
 ```
 
 #### PATH_SEP_POSIX
@@ -70,7 +70,7 @@ var sep = PATH_SEP_POSIX;
 <body>
 <script type="module">
 
-import PATH_SEP_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@esm/index.mjs';
+import PATH_SEP_POSIX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path-sep-posix@v0.1.0-esm/index.mjs';
 
 var path = 'foo/bar/baz';
 var parts = path.split( PATH_SEP_POSIX );
